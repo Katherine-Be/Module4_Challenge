@@ -1,3 +1,43 @@
+nav {
+    height:100px;
+}
+
+nav div {
+    font-size: 25px;
+}
+
 main {
-    display: inline-block /*the elements within main will be next to each other inside the main container*/
+    display: inline-block; /*the elements within main will be next to each other inside the main container*/
+    height: 500px;
+    margin: 200px;
+}
+
+section {
+    width:200px;
+    align-content: center;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quiz {
+    height: 175px;
+}
+
+#submit {
+    font-size: 125%;
+    color: black;
+    background: rgb(212, 210, 210);
+    border-radius: 10%;
+    margin: auto;
+}
+
+#grade {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 175%;
+}
+    margin: auto;
+
+aside {
 }
