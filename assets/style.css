@@ -7,24 +7,26 @@ nav div {
 }
 
 main {
-    display: inline-block; /*the elements within main will be next to each other inside the main container*/
+    display: flex; centers the main section
     height: 500px;
     margin: 200px;
+    flex-direction: row;/*the elements within main will be next to each other inside the main container*/
 }
 
-section {
+section, aside {
     width:200px;
     align-content: center;
     width: 550px;
     display: flex;
     flex-direction: column;
+    margin:auto /* centers the main element's content*/
 }
 
-#quiz {
+#quiz, #timer {
     height: 175px;
 }
 
-#submit {
+#submit, #playerScore {
     font-size: 125%;
     color: black;
     background: rgb(212, 210, 210);
