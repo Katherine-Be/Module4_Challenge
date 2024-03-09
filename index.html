@@ -8,12 +8,12 @@
   </head>
   <body>
     <nav>
-        <div id="scoreboard">Click to see High Scores!</div>
+        <button onclick = "showScores()" id="scoreboard">Click to see High Scores!</button><!--button is clicked the function "show()" will be called-->
     </nav>
     <main>
         <section>
             <div id="quiz"></div>
-                <button id="submit">Submit Answer</button>
+                <button onclick = "submitAnswer()" id="submit">Submit Answer</button><!--button is clicked the function "submitAnswer()" will be called-->
                 <p id=grade>Correct or Incorrect</p>
         </section>
 

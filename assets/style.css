@@ -7,9 +7,9 @@ nav div {
 }
 
 main {
-    display: flex; centers the main section
+    display: flex;
     height: 500px;
-    margin: 200px;
+    margin: 200px;      
     flex-direction: row;/*the elements within main will be next to each other inside the main container*/
 }
 
@@ -24,6 +24,7 @@ section, aside {
 
 #quiz, #timer {
     height: 175px;
+    text-align: center;
 }
 
 #submit, #playerScore {
@@ -39,7 +40,8 @@ section, aside {
     margin-top: 10px;
     font-size: 175%;
 }
-    margin: auto;
+
 
 aside {
+    margin: auto;
 }
