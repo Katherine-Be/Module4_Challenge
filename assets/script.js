@@ -2,17 +2,48 @@
 var scoreboard = document.getElementById("scoreboard");
 var questionBox = document.getElementById("quiz'");
 var submitButton = document.getElementById("submit");
-var grade = document.getElementById("grade");
 var timer = document.getElementById("timer");
 var score = document.getElementById("playerScore");
 
+// const quiz = [
+//     { 
+//         question: "Which example calls a function?",
+//         correctAnswer: "A. myFunction()"},
+//     {
+//         question: "Comparison operators (if statements) will exeute code if the condition is ...",
+//         correctAnswer: "C. True"},
+//     {
+//         question: "Which string will be written in the console after the follwing code is run? \nconst isDirty = true;\n if (isDirty) {\n console.log('Wash the dishes.');\n}\n else {\n console.log('Unload the dishwasher.');\n}\n",
+//         correctAnswer: "D. Wash the dishes."},
+//     {
+//         question: ""
+//     }
 
-function submitAnswer () {//basic example for the function called when user's answer is submitted without question variables or adding to the score.
-    const grade = document.getElementById("grade"); //changed variable "grade" from a var to a const within the function
-    if (response = "A") {
-        grade.innerHTML = "Correct!";//resplaces "correct or incorrect" with the result of the question answer
-    }
-    else {
-        grade.innerHTML = "Incorrect!";
-    }
-}
+// ];
+
+// const questionProperty = "question";
+
+// for (let i = 0; i < quiz.length; i++) {
+//     // Log the question property of the current object to the console
+//     console.log(quiz[i].question);
+// }
+
+// for (let i = 0; i < questions.length; i++) { //loop for running through questions 
+//     var currentQuestion = question[i]
+
+// }
+
+// function submitAnswer () {//basic example for the function called when user's answer is submitted without question variables or adding to the score.
+    
+
+//      //moved variable and tested the function-when submit button is clicked, grade text shows "correct"
+//     if (response = ("A")) {
+//         grade.innerHTML = "Correct!";//resplaces "correct or incorrect" with the result of the question answer
+//     }
+//     else {
+//         grade.innerHTML = "Incorrect!";
+//     }
+// }
+
+
+var timer = document.getElementById("timer");

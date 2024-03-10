@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
@@ -12,14 +13,32 @@
     </nav>
     <main>
         <section>
-            <div id="quiz"></div>
+            <div id="quiz"> quizQuestion<br>The artist is the creator of beautiful things. To reveal art and conceal the artist is art’s aim. The critic is he who can translate into another manner or a new material his impression of beautiful things.
+
+              The highest as the lowest form of criticism is a mode of autobiography. Those who find ugly meanings in beautiful things are corrupt without being charming. This is a fault.
+              
+              Those who find beautiful meanings in beautiful things are the cultivated. For these there is hope. They are the elect to whom beautiful things mean only beauty.
+              
+              There is no such thing as a moral or an immoral book. Books are well written, or badly written. That is all.
+              
+              The nineteenth century dislike of realism is the rage of Caliban seeing his own face in a glass.
+              
+              The nineteenth century dislike of romanticism is the rage of Caliban not seeing his own face in a glass. The moral life of man forms part of the subject-matter of the artist, but the morality of art consists in the perfect use of an imperfect medium. No artist desires to prove anything. Even things that are true can be proved. No artist has ethical sympathies. An ethical sympathy in an artist is an unpardonable mannerism of style. No artist is ever morbid. The artist can express everything. Thought and language are to the artist instruments of an art. Vice and virtue are to the artist materials for an art. From the point of view of form, the type of all the arts is the art of the musician. From the point of view of feeling, the actor’s craft is the type. All art is at once surface and symbol. Those who go beneath the surface do so at their peril. Those who read the symbol do so at their peril. It is the spectator, and not life, that art really mirrors. Diversity of opinion about a work of art shows that the work is new, complex, and vital. When critics disagree, the artist is in accord with himself. We can forgive a man for making a useful thing as long as he does not admire it. The only excuse for making a useless thing is that one admires it intensely.
+              
+              All art is quite useless.</div> <!--tested with excessive text to see what the format would do with too much text in the question-->
                 <button onclick = "submitAnswer()" id="submit">Submit Answer</button><!--button is clicked the function "submitAnswer()" will be called-->
-                <p id=grade>Correct or Incorrect</p>
+                <p id="grade">Correct or Incorrect</p><!--This text will change after the answer is submitted-->
         </section>
 
         <aside>
-            <figure id="timer">Time Left</figure>
-            <p id=playerScore>Your Score</p>
+            <figure>
+              <h1>Time Left</h1>
+              <a id="timer">100seconds</a>
+            </figure>
+            <figure>
+              <h1>YourScore</h1>
+              <a id="playerScore"></a>
+            </figure>
         </aside>
     </main>
 
@@ -29,5 +48,5 @@
 
 
 
-    <script src="scripts.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
